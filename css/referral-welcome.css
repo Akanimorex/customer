@@ -1,0 +1,58 @@
+
+
+/* body{
+    background: red;
+} */
+
+
+*{
+margin: 0;
+padding: 0;
+}
+.gen-body {
+    background-color: #5a9915;
+    height: auto;
+    
+	box-sizing: border-box;
+    background-color: #5a9915; 
+    /* background-image: url(../assets/background.png);  */
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    margin: 0 !important;
+	
+}
+
+ .gen-body .img{
+width: 100%;
+}
+
+.gen-body .img img{
+    width: 100%;
+}
+
+
+
+.cartoon-img {
+
+line-height: 10px;
+
+}
+
+
+.cartooned-text {
+	font-size: 20px;
+	position: relative;
+    top: 42px;
+}
+
+.mx-auto .continue-btn  {
+color: #5a9915;
+background-color: #fff;
+}
+.continue-btn:active,
+.continue-btn:focus
+{
+    color: #5a9915;
+    text-decoration: none;
+}

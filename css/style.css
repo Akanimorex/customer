@@ -1,5 +1,6 @@
 html,body {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: var(--main-font-family);
+    box-sizing: border-box;
 }
 *{
     margin: 0;
@@ -8,9 +9,104 @@ html,body {
 
 :root {
     --main-color:#ff2500;
+    --main-bg-color:#ff2500;
+    --main-font-family: 'Montserrat', sans-serif;
 }
 
 .land {
     color: var(--main-color);
     margin: 50% auto !important;
+}
+
+.header {
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    color: #fff;
+}
+
+.login-form > input {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 100%;
+    border-bottom:2px solid #5a9915;
+    background: #fff;
+    border-radius: 0px !important;
+}
+
+.login-form > input:active,
+.login-form > input:focus
+{
+    outline: none !important;
+    background: #fff !important;
+}
+input#number {
+    background: white;
+}
+
+.login-form label {
+    font-size: 20px;
+    text-align: left !important;
+}
+
+.login-btn {
+    background: #5a9915 !important;
+    color: #fff !important;
+    padding: 10px 150px 10px 150px;
+    border: none;
+}
+
+.redirect-links {
+    font-size: 20px;
+}
+
+.box {
+    border:1px solid ;
+    box-shadow: 0 0 4px 0 #ff2500;
+    background: #fff;
+    padding: 20px;
+}
+
+.signup-btn a{
+    color: #fff;
+}
+
+.signup-btn a:active,
+.signup-btn a:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.head-text {
+font-size: 20px;
+}
+.ref-head {
+    color: var(--main-color);
+}
+
+.success-head {
+    color: var(--main-color);
+}
+
+.reset-btn a{
+    color: #fff;
+}
+
+.signup-btn {
+    background: #5a9915 !important;
+    color: #fff !important;
+    padding: 10px;
+    width: 100%;
+    /* padding: 10px 100px 10px 100px ; */
+    /* padding: 4px 150px 4px 150px; */
+    border: none;
+}
+
+.reset-btn {
+    background:#3d3d3d;
+    color: #fff !important;
+    padding: 10px;
+    width: 100%;
+    border: none;
+
 }
